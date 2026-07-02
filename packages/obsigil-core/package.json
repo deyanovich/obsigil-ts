@@ -1,0 +1,37 @@
+{
+  "name": "@obsigil/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Shared obsigil primitives: token grammar, text encodings, deterministic AEAD, canonical CBOR",
+  "keywords": ["obsigil", "mandate", "token", "jwt", "aes-siv", "aes-gcm-siv", "cbor", "credential"],
+  "license": "MIT OR Apache-2.0",
+  "author": "Bojan Đuričković",
+  "homepage": "https://obsigil.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/obsigil/obsigil-ts.git",
+    "directory": "packages/obsigil-core"
+  },
+  "bugs": "https://gitlab.com/obsigil/obsigil-ts/-/issues",
+  "engines": { "node": ">=20" },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src", "LICENSE-MIT", "LICENSE-APACHE"],
+  "publishConfig": { "access": "public" },
+  "scripts": {
+    "build": "tsc -b",
+    "prepack": "tsc -b"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^2.2.0",
+    "@noble/hashes": "^2.0.0"
+  }
+}

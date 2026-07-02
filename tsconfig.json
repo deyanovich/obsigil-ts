@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/obsigil-core" },
+    { "path": "packages/obsigil-client" },
+    { "path": "packages/obsigil-server" }
+  ]
+}

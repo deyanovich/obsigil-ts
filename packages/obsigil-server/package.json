@@ -1,0 +1,36 @@
+{
+  "name": "@obsigil/server",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Backend for obsigil mandate tokens: mint and verify under a secret mandate key",
+  "keywords": ["obsigil", "mandate", "token", "jwt", "authorization", "credential", "backend"],
+  "license": "MIT OR Apache-2.0",
+  "author": "Bojan Đuričković",
+  "homepage": "https://obsigil.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/obsigil/obsigil-ts.git",
+    "directory": "packages/obsigil-server"
+  },
+  "bugs": "https://gitlab.com/obsigil/obsigil-ts/-/issues",
+  "engines": { "node": ">=20" },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src", "LICENSE-MIT", "LICENSE-APACHE"],
+  "publishConfig": { "access": "public" },
+  "scripts": {
+    "build": "tsc -b",
+    "prepack": "tsc -b"
+  },
+  "dependencies": {
+    "@obsigil/core": "workspace:^"
+  }
+}
