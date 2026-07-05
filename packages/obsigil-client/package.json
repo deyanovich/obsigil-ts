@@ -1,6 +1,6 @@
 {
   "name": "@obsigil/client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Front-end client for obsigil mandate tokens: open the manifest, forward the mandate",
   "keywords": ["obsigil", "mandate", "token", "jwt", "credential", "frontend"],

@@ -1,6 +1,6 @@
 {
   "name": "@obsigil/core",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Shared obsigil primitives: token grammar, text encodings, deterministic AEAD, canonical CBOR",
   "keywords": ["obsigil", "mandate", "token", "jwt", "aes-siv", "aes-gcm-siv", "cbor", "credential"],

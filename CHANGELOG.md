@@ -14,6 +14,13 @@ guidelines.
 ------------
 
 
+[1.0.0] - 2026-07-05
+--------------------
+
+First stable release, implementing obsigil spec v1.0. No code or
+wire-format change from 0.1.0; existing tokens are unaffected.
+
+
 [0.1.0] - 2026-07-01
 --------------------
 

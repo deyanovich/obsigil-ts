@@ -1,6 +1,6 @@
 {
   "name": "@obsigil/server",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Backend for obsigil mandate tokens: mint and verify under a secret mandate key",
   "keywords": ["obsigil", "mandate", "token", "jwt", "authorization", "credential", "backend"],
